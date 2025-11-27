@@ -1815,7 +1815,7 @@ function FinanceiroView({ fetchAPI, onCreateTransacao }) {
 function App() {
     const API_URL = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost"
     ? "http://127.0.0.1:8000/" // Local
-    : "https://projeto-gerenciamento-redes-catadores.onrender.com/";
+    : "https://projeto-gerenciamento-redes-catadores.onrender.com";
 
     const [token, setToken] = useState(() => localStorage.getItem("rc_token"))
 
